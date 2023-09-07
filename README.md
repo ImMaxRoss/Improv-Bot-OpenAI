@@ -1,2 +1,3 @@
 # Improv-Bot-OpenAI
-Original Improv Bot I created using an openAI completion model taught to me by ChatGPT.
+Copy of my "first" programming project.
+Original Improv Bot I created using an openAI completion model learned by interfacing with ChatGPT.
