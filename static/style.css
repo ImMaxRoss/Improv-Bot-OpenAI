@@ -1,0 +1,61 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+  color: #F7D358;
+  background-color: #000; /* Set the background color to black */
+}
+
+#header {
+  text-align: center;
+  font-size: 64px;
+  color: #F7D358;
+  font-family: 'Arial', sans-serif;
+  margin: 20px;
+}
+
+#header p {
+  width: 50%;
+  font-size: 20px;
+  margin: 0 auto;
+  color: #F7D358;
+}
+
+#input-box {
+  width: 50%;
+  height: 30px;
+  font-size: 20px;
+  margin: 20px auto;
+  border-radius: 10px;
+  border: none;
+  background-color: #F7D358;
+  color: #191414;
+  padding: 10px;
+}
+
+#conversation-history {
+  margin: 20px;
+}
+
+.message {
+  margin: 20px;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.user {
+  background-color: #2B1B0E;
+  color: #F7D358;
+}
+
+.bot {
+  background-color: #2B1B0E; /* Set the background color/
+  color: white; /* Set the text color to white */
+}
+
+
+.star {
+  position: absolute; /* Position the stars absolutely so they can be placed anywhere on the page */
+  width: 3px; /* Set the width of the stars */
+  height: 3px; /* Set the height of the stars */
+  background: #F7D358; /* Set the background color of the stars to yellow */
+  transform: rotate(45deg); /* Rotate the stars 45 degrees */
+}

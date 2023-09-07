@@ -1,0 +1,21 @@
+<html>
+  <head>
+    <title>Improv Bot</title>
+    <link rel="stylesheet" href="/static/style.css">
+    <script src="/static/script.js"></script>
+  </head>
+  <body style="background-color: #000;">
+    <div id="header">
+      <label for="input-box">Improv Bot</label>
+      <p>This is Del bot. The world's greatest improv scene partner AI (Del thinks so anyway). To start an improv scene with Del, either give Del a one-word suggestion to start or ask Del for a suggestion to start.</p>
+      <form action="/send" method="post">
+        <input id="input-box" type="text" name="user_input">
+      </form>
+    <div id="conversation-history-wrapper" style="height: 500px; overflow-y: scroll;">
+    <div id="conversation-history">
+      {% for message in conversation %}
+        <div class="message {% if message.startswith('USER:') %}user{% else %}bot{% endif %}" style="margin: 20px; padding: 20px; border-radius: 10px;">{{ message }}</div>
+      {% endfor %}
+    </div>
+  </body>
+</html>
